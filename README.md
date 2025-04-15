@@ -25,7 +25,7 @@ It's like having a personal AI genie at your fingertips. 🧞‍♂️
 
 ### 1️⃣ Download Ollama Locally  
 Install the Ollama model from the official website:  
-👉 [Download llama3.2:3b](https://ollama.com/library/llama3.2:3b)
+👉 [Download llama3.2:latest](https://ollama.com/library/llama3.2:latest)
 
 ---
 
