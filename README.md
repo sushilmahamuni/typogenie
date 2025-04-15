@@ -38,10 +38,15 @@ To check Open your terminal and run:
 
 
 ### 3️⃣ Run TypoGenie  
-- Download and extract the `TypoGenie-Windows.zip`
-- Double-click `TypoGenie.exe`
-- Let the magic begin! 🪄  
-TypoGenie will start correcting your copied text automatically.
+Make sure you have **Python 3.10** installed.  
+
+Install required dependency
+  pip install -r requirements.txt
+
+Then run:
+  python main.py
+
+TypoGenie will now run in the background and fix your copied text automatically.
 
 ---
 
