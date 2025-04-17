@@ -46,7 +46,9 @@ Install required dependency
 Then run:
   python main.py
 
-TypoGenie will now run in the background and fix your copied text automatically.
+- Select settings icon⚙️ from popup menu. type model name like llama3.2 based on the model you've installed. if chatgpt or gemini then keys are required.
+
+Congratulations! TypoGenie is now running in the background and will automatically fix your copied text
 
 ---
 
@@ -54,6 +56,7 @@ TypoGenie will now run in the background and fix your copied text automatically.
 
 Click the ⚙️ icon in the popup to:
 - Choose your AI model: **Ollama**, **ChatGPT**, or **Gemini**
+- 
 - Enter API keys if using ChatGPT/Gemini
 - Customize default settings
 
