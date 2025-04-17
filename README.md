@@ -55,7 +55,7 @@ Congratulations! TypoGenie is now running in the background and will automatical
 
 Click the ⚙️ icon in the popup to:
 - Choose your AI model: **Ollama**, **ChatGPT**, or **Gemini**
-- 
+- type model name like llama3.2 based on the model you've installed. if chatgpt or gemini then keys are required.
 - Enter API keys if using ChatGPT/Gemini
 - Customize default settings
 
