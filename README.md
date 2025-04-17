@@ -32,7 +32,7 @@ Note: These models purely depend on your system configuration. Please use only t
 ### 2️⃣ Start Ollama  
 After installation, make sure Ollama application is running.  
 
-then run below command it will download the model if not present:
+Next then run below command it will download the model if not present:
 - ollama run llama3.2
 
 
