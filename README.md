@@ -21,33 +21,37 @@ It's like having a personal AI genie at your fingertips. 🧞‍♂️
 
 ## 🧰 Setup Instructions
 
-### 1️⃣ Download Ollama Locally  
-Install the Ollama model from the official website:  
-👉 [Download llama3.2:latest](https://ollama.com/library/llama3.2:latest)
+1️⃣ Install Ollama on Windows
+- Download Ollama for Windows from the official website:
+👉 https://ollama.com
+- Install the application using the installer.
+- Once installed, open Command Prompt and run:
+      ollama pull llama3.2
 
-Note: These models purely depend on your system configuration. Please use only the ones that are best suited for your setup. You can also ask ChatGPT or Gemini to suggest the most compatible ollama models based on your CPU details.
+Note: Model performance depends on your system configuration.
+Choose a model that's suitable for your CPU. You can ask ChatGPT or Gemini which Ollama model works best for your hardware.
 
----
+2️⃣ Start Ollama
+- Make sure the Ollama background service is running. You can check this by running:
+      ollama run llama3.2
 
-### 2️⃣ Start Ollama  
-After installation, make sure Ollama application is running.  
+Note: If the model isn't already downloaded, Ollama will automatically download it the first time you run this command.
 
-Next then run below command it will download the model if not present:
-- ollama run llama3.2
+3️⃣ Run TypoGenie
+- Ensure you have Python 3.10 or higher installed on Windows.
+👉 Download from https://www.python.org/downloads/windows/
+- Open Command Prompt inside the TypoGenie project folder.
+- Install the required dependencies:
+      pip install -r requirements.txt
+- Start TypoGenie:
+      python main.py
+- In the popup that appears, click the settings icon ⚙️.
+- Enter the model name (e.g., llama3.2) based on the model you've installed via Ollama.
 
+✅ If you're using ChatGPT or Gemini, you'll need to provide your API key in the settings.
 
-### 3️⃣ Run TypoGenie  
-Make sure you have **Python 3.10** installed.  
-
-Install required dependency
-  pip install -r requirements.txt
-
-Then run:
-  python main.py
-
-- Select settings icon⚙️ from popup menu. type model name like llama3.2 based on the model you've installed. if chatgpt or gemini then keys are required.
-
-Congratulations! TypoGenie is now running in the background and will automatically fix your copied text
+🎉 Congratulations!
+TypoGenie is now running in the background and will automatically fix your copied text whenever you press Ctrl+C.
 
 ---
 
