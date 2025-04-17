@@ -26,14 +26,14 @@ It's like having a personal AI genie at your fingertips. 🧞‍♂️
 👉 https://ollama.com
 - Install the application using the installer.
 - Once installed, open Command Prompt and run:
-      ollama pull llama3.2
+      👉 ollama pull llama3.2
 
 Note: Model performance depends on your system configuration.
 Choose a model that's suitable for your CPU. You can ask ChatGPT or Gemini which Ollama model works best for your hardware.
 
 2️⃣ Start Ollama
 - Make sure the Ollama background service is running. You can check this by running:
-      ollama run llama3.2
+      👉 ollama run llama3.2
 
 Note: If the model isn't already downloaded, Ollama will automatically download it the first time you run this command.
 
@@ -42,9 +42,9 @@ Note: If the model isn't already downloaded, Ollama will automatically download 
 👉 Download from https://www.python.org/downloads/windows/
 - Open Command Prompt inside the TypoGenie project folder.
 - Install the required dependencies:
-      pip install -r requirements.txt
+      👉 pip install -r requirements.txt
 - Start TypoGenie:
-      python main.py
+      👉 python main.py
 - In the popup that appears, click the settings icon ⚙️.
 - Enter the model name (e.g., llama3.2) based on the model you've installed via Ollama.
 
