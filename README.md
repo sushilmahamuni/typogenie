@@ -30,11 +30,10 @@ Note: These models purely depend on your system configuration. Please use only t
 ---
 
 ### 2️⃣ Start Ollama  
-After installation, make sure Ollama is running.  
+After installation, make sure Ollama application is running.  
 
-To check Open your terminal and run:
+then run below command it will download the model if not present:
 - ollama run llama3.2
-- you can close this after checking
 
 
 ### 3️⃣ Run TypoGenie  
