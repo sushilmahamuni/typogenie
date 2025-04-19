@@ -4,7 +4,8 @@
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Mac%20%7C%20Linux-green)
 ![Status](https://img.shields.io/badge/status-Production--Ready-brightgreen)
 
-> AI-powered clipboard assistant that silently fixes grammar and optimizes code while you copy — then magically improves it when you paste.  
+> AI-powered clipboard assistant that silently fixes grammar and optimizes code while you copy — then magically improves it when you paste.
+> To work faster, it is recommended to use a higher Ollama model like LLaMA 3.2, and the system should be configured with a GPU instead of a CPU.
 ---
 
 ## ✨ What is TypoGenie?
